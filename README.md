@@ -1,3 +1,5 @@
+NOTE: The website has been hosted via vercel https://genwiz.vercel.app. However the database has been created using supabase. Furthermore, certain third party applications and APIs were initially being integrated while they were under the free trial. The free trial for that has expired which may result in a server side exception ( details of which can be found in server logs ). The free trial database is in sleep mode when not used for a week. I can temporarily wake up my database for 24 hours as and when required. Also, after 8th april PlanetScale's free Hobby plan was retired. I can however update and look into the errors as and when needed. There are some Stripe webhook delivery issues ( stripe was being used for payment integration ). The website was intially working so these errors may have stemmed from the free trial expiring across different applications. 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
